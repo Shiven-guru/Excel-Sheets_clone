@@ -100,7 +100,7 @@ for (let i = 0; i < Allcells.length; i++) {
 }
 // initial cell click emulate
 Allcells[0].click();
-// ************Formatting****************
+// ************Formatting*****************
 leftBtn.addEventListener("click", function () {
     let address = addressBar.value;
     let { rid, cid } = getRIdCIdfromAddress(address);
